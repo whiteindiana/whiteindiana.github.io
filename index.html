@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#143e35">
   <title>Chang-Yeol Jung · Mathematical Sciences · UNIST</title>
-  <meta name="description" content="Chang-Yeol Jung, Professor of Mathematical Sciences at UNIST. Research in scientific AI, numerical analysis, partial differential equations, and boundary layers.">
+  <meta name="description" content="Chang-Yeol Jung, Professor at UNIST. Scientific AI grounded in PDEs, boundary layer analysis, and conservation, with a growing focus on generative models for inverse problems.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Chang-Yeol Jung · Mathematical Sciences · UNIST">
-  <meta property="og:description" content="Scientific AI, numerical analysis, and the mathematics of boundary layers. Research and publications of Chang-Yeol Jung.">
+  <meta property="og:description" content="Scientific AI, grounded in mathematics. Explore physics-informed learning, conservation-aware networks, and future directions in generative AI for sparse-data inverse problems.">
   <meta name="color-scheme" content="light">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
@@ -21,7 +21,7 @@
       <a class="wordmark" href="#home" aria-label="Chang-Yeol Jung, home"><span class="monogram" aria-hidden="true">CJ<span>↗</span></span><span>Chang-Yeol Jung<small>MATHEMATICAL SCIENCES</small></span></a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span>Menu</span><span class="menu-icon" aria-hidden="true"></span></button>
       <nav class="main-nav" id="main-nav" aria-label="Main navigation">
-        <a href="#research">Research</a><a href="#publications">Publications</a><a href="#background">Background</a><a href="#book">Book</a><a class="nav-contact" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+        <a href="#ai-research">AI Research</a><a href="#research">Foundations</a><a href="#publications">Publications</a><a href="#background">Background</a><a href="#book">Book</a><a class="nav-contact" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
   </header>
@@ -30,9 +30,9 @@
       <div class="hero-copy">
         <p class="eyebrow"><span class="dot" aria-hidden="true"></span> PROFESSOR · UNIST</p>
         <h1 id="hero-title">Chang-Yeol<br><em>Jung.</em></h1>
-        <p class="hero-statement">At the intersection of<br>mathematics &amp; computation.</p>
-        <p class="hero-description">Scientific AI, numerical analysis, and partial differential equations — with a focus on singular perturbations and boundary layers.</p>
-        <div class="hero-actions"><a class="button button-dark" href="#publications">Explore publications <span aria-hidden="true">↗</span></a><a class="text-link" href="https://scholar.google.com/citations?hl=en&amp;user=pWKSUngAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div>
+        <p class="hero-statement">Scientific AI,<br>grounded in mathematics.</p>
+        <p class="hero-description">Connecting PDE analysis and numerical methods with AI — from learning sharp physical features to exploring generative models for sparse-data inverse problems.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#ai-research">Explore AI research <span aria-hidden="true">↗</span></a><a class="text-link" href="https://scholar.google.com/citations?hl=en&amp;user=pWKSUngAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div>
       </div>
       <figure class="hero-art">
         <div class="art-top"><span>THE LANGUAGE OF CHANGE</span><span class="art-plus" aria-hidden="true">+</span></div>
@@ -46,8 +46,55 @@
       <p class="location"><span class="location-mark" aria-hidden="true">⊙</span> Ulsan, Republic of Korea</p>
     </div>
 
+    <section class="section container ai-section" id="ai-research" aria-labelledby="ai-title">
+      <div class="ai-heading">
+        <div><p class="eyebrow">01 / CURRENT &amp; FUTURE RESEARCH</p><h2 id="ai-title">Advancing AI.<br><em>Through mathematics.</em></h2></div>
+        <div class="ai-introduction"><span class="focus-label"><span class="dot" aria-hidden="true"></span> SCIENTIFIC MACHINE LEARNING</span><p>My current interests center on scientific AI that respects physical laws and captures the features that are hardest to learn. I bring the analysis of PDEs, singular perturbations, and numerical methods to the design and evaluation of neural models.</p></div>
+      </div>
+
+      <div class="ai-pillars" aria-label="Three current research interests">
+        <article class="ai-pillar">
+          <div class="pillar-top"><span>01</span><span>PHYSICAL STRUCTURE</span></div>
+          <svg class="pillar-graphic" viewBox="0 0 300 100" fill="none" aria-hidden="true">
+            <rect x="8" y="24" width="63" height="52" rx="4" fill="#e9eee5" stroke="#a8bda9"/><text x="39" y="56" text-anchor="middle" fill="#285443" font-family="Georgia,serif" font-size="23">∂u</text>
+            <g stroke="#a7bcaa" stroke-width="1"><path d="M71 50h32M103 26l53-12m-53 12 53 24m-53-24 53 60M103 74l53-60m-53 60 53-24m-53 24 53 12M156 14l52 22m-52-22 52 50m-52-14 52-14m-52 14 52 14m-52 22 52-50m-52 50 52-22M208 36l47 14m-47 14 47-14M255 50h33"/></g>
+            <g fill="#e0e9db" stroke="#537d62" stroke-width="1.4"><circle cx="103" cy="26" r="6"/><circle cx="103" cy="74" r="6"/><circle cx="156" cy="14" r="6"/><circle cx="156" cy="50" r="6"/><circle cx="156" cy="86" r="6"/><circle cx="208" cy="36" r="6"/><circle cx="208" cy="64" r="6"/></g><circle cx="255" cy="50" r="7" fill="#315e46"/>
+          </svg>
+          <h3>Physics-informed learning</h3><p>Embedding governing PDEs and boundary conditions into neural architectures, physical constraints, and loss functions.</p><span class="pillar-keyword">Physics-informed neural networks · PINNs</span>
+        </article>
+        <article class="ai-pillar">
+          <div class="pillar-top"><span>02</span><span>SINGULAR STRUCTURES</span></div>
+          <svg class="pillar-graphic" viewBox="0 0 300 100" fill="none" aria-hidden="true">
+            <path d="M17 8v79h269" stroke="#a7bcaa"/><rect x="249" y="9" width="25" height="77" fill="#dce8d8"/><path d="M18 80C85 77 170 68 274 54" stroke="#779680" stroke-width="1.5" stroke-dasharray="5 5"/><path d="M18 80C93 77 183 69 226 59S260 27 274 10" stroke="#225640" stroke-width="2.2"/><path d="M249 91v5m0-2h25m0-3v5" stroke="#52755a"/><text x="260" y="25" text-anchor="middle" fill="#356348" font-family="Georgia,serif" font-size="13">ε</text>
+          </svg>
+          <h3>Learning sharp features</h3><p>Combining neural networks with analytical correctors to resolve shocks, boundary layers, and corner effects, where solutions change rapidly.</p><span class="pillar-keyword">Singular perturbations · Analytical correctors</span>
+        </article>
+        <article class="ai-pillar">
+          <div class="pillar-top"><span>03</span><span>LOCAL CONSERVATION</span></div>
+          <svg class="pillar-graphic" viewBox="0 0 300 100" fill="none" aria-hidden="true">
+            <g stroke="#bcc9b7"><path d="M75 5v90m50-90v90m50-90v90m50-90v90M75 5h150M75 35h150M75 65h150M75 95h150"/></g><rect x="125" y="35" width="50" height="30" fill="#e0e9d5" stroke="#4f7659"/><g stroke="#315e46" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M150 50V15m-5 6 5-6 5 6M150 50v35m-5-6 5 6 5-6M150 50H94m6-5-6 5 6 5M150 50h56m-6-5 6 5-6 5"/></g><circle cx="150" cy="50" r="3" fill="#315e46"/>
+          </svg>
+          <h3>Conservation-aware networks</h3><p>Bringing local conservation from finite volume methods into neural models, with attention to accuracy, stability, and boundary and corner behavior.</p><span class="pillar-keyword">Finite volume neural networks · FVNNs</span>
+        </article>
+      </div>
+
+      <div class="ai-frontier" aria-labelledby="frontier-title">
+        <div class="frontier-main">
+          <div class="frontier-copy"><p class="eyebrow">NEXT DIRECTION / GENERATIVE SCIENTIFIC AI</p><h3 id="frontier-title">A few observations.<br><em>A field of possibilities.</em></h3><p>I aim to develop generative AI that reconstructs physical fields and identifies unknown sources from sparse sensor data, while quantifying uncertainty.</p><p>The goal is to generate multiple plausible solutions consistent with both observations and physical laws, and reveal where predictions remain uncertain.</p><div class="frontier-example"><span>AN ILLUSTRATIVE CHALLENGE</span><p>Can a few temperature measurements reveal a full temperature field and an unknown heat source?</p></div></div>
+          <figure class="frontier-figure"><picture><source media="(max-width: 640px)" srcset="assets/sparse-field-mobile.svg"><img src="assets/sparse-field.svg" alt="Concept diagram: sparse measurements lead to several candidate field reconstructions whose spread represents uncertainty." width="620" height="460" loading="lazy"></picture><figcaption>Concept illustration · not an experimental result</figcaption></figure>
+        </div>
+        <div class="frontier-route"><p>PLANNED VALIDATION PATH</p><ol><li>Reaction–diffusion</li><li>Convection–diffusion</li><li>Heat transfer &amp; flow</li></ol></div>
+      </div>
+
+      <div class="ai-contribution">
+        <div class="contribution-heading"><p class="eyebrow">WHAT I BRING TO COLLABORATION</p><h3>From mathematical insight<br>to <em>testable AI methods.</em></h3></div>
+        <dl class="contribution-list"><div><dt><span>01</span> Design</dt><dd>PDE-aware architectures, physical constraints, and correctors informed by the analysis of shocks, boundary layers, and corners.</dd></div><div><dt><span>02</span> Analyze</dt><dd>Approximation error, sensitivity, and the conditions under which a model works well — and where its limitations lie.</dd></div><div><dt><span>03</span> Validate</dt><dd>Reference solutions and Python/PyTorch experiments to assess global and local errors, physical consistency, stability, and computational cost.</dd></div></dl>
+      </div>
+      <div class="ai-collaboration"><p>I welcome collaborations in <strong>generative modeling, inverse problems, uncertainty quantification,</strong> and <strong>sensor-driven engineering applications.</strong></p><a class="button button-outline" href="mailto:cjung@unist.ac.kr?subject=Scientific%20AI%20research%20collaboration">Discuss a collaboration <span aria-hidden="true">↗</span></a></div>
+    </section>
+
     <section class="section container research-section" id="research" aria-labelledby="research-title">
-      <div class="section-intro"><p class="eyebrow">01 / RESEARCH</p><h2 id="research-title">Analysis meets<br><em>possibility.</em></h2><p>From the structure of partial differential equations to new approaches in scientific computing.</p><div class="research-note"><span aria-hidden="true">∂</span><p>Mathematical analysis.<br>Computational methods.<br>Scientific discovery.</p></div></div>
+      <div class="section-intro"><p class="eyebrow">02 / FOUNDATIONS</p><h2 id="research-title">The mathematics<br><em>behind the models.</em></h2><p>The analytical and computational foundations of my research in scientific AI and partial differential equations.</p><div class="research-note"><span aria-hidden="true">∂</span><p>Mathematical analysis.<br>Computational methods.<br>Scientific discovery.</p></div></div>
       <ol class="research-list">
         <li><span class="research-number">01</span><div><h3>Scientific AI Models</h3><p>Physics-informed neural networks and scientific machine learning.</p></div><span class="research-symbol" aria-hidden="true">✳</span></li>
         <li><span class="research-number">02</span><div><h3>Numerical Analysis &amp; Methods</h3><p>Numerical approaches to differential equations.</p></div><span class="research-symbol" aria-hidden="true">∑</span></li>
@@ -59,7 +106,7 @@
 
     <section class="publications-section" id="publications" aria-labelledby="publications-title">
       <div class="container">
-        <div class="section-heading"><div><p class="eyebrow">02 / PUBLICATIONS</p><h2 id="publications-title">Recent <em>work.</em></h2></div><a class="text-link" href="https://scholar.google.com/citations?hl=en&amp;user=pWKSUngAAAAJ" target="_blank" rel="noopener noreferrer">Full profile on Google Scholar <span aria-hidden="true">↗</span></a></div>
+        <div class="section-heading"><div><p class="eyebrow">03 / PUBLICATIONS</p><h2 id="publications-title">Recent <em>work.</em></h2></div><a class="text-link" href="https://scholar.google.com/citations?hl=en&amp;user=pWKSUngAAAAJ" target="_blank" rel="noopener noreferrer">Full profile on Google Scholar <span aria-hidden="true">↗</span></a></div>
         <div class="publication-controls" hidden>
           <div class="year-filters" role="group" aria-label="Filter publications by year"><button type="button" data-year="all" aria-pressed="true">All years <span>9</span></button><button type="button" data-year="2026" aria-pressed="false">2026</button><button type="button" data-year="2025" aria-pressed="false">2025</button><button type="button" data-year="2024" aria-pressed="false">2024</button></div>
           <label class="search-field"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span class="sr-only">Search publications by title, author, or journal</span><input id="publication-search" type="search" placeholder="Search publications" autocomplete="off"></label>
@@ -116,7 +163,7 @@
     </section>
 
     <section class="section container background-section" id="background" aria-labelledby="background-title">
-      <div class="section-heading"><div><p class="eyebrow">03 / BACKGROUND</p><h2 id="background-title">An academic <em>journey.</em></h2></div></div>
+      <div class="section-heading"><div><p class="eyebrow">04 / BACKGROUND</p><h2 id="background-title">An academic <em>journey.</em></h2></div></div>
       <div class="background-grid">
         <div><h3 class="column-label">APPOINTMENTS</h3><ol class="timeline">
           <li class="current"><span class="timeline-date">2018 — Present</span><div><h4>Professor</h4><p>UNIST</p></div><span class="current-label">CURRENT</span></li>
@@ -132,12 +179,12 @@
 
     <section class="book-section container" id="book" aria-labelledby="book-title">
       <div class="book-visual" aria-hidden="true"><span class="book-series">APPLIED MATHEMATICAL SCIENCES <b>200</b></span><div class="book-cover-title">Singular<br>Perturbations<br><i>and</i><br>Boundary Layers</div><div class="book-lines"></div><span class="book-imprint">Springer <span>2018</span></span></div>
-      <div class="book-copy"><p class="eyebrow">04 / MONOGRAPH</p><h2 id="book-title">Singular Perturbations<br>&amp; <em>Boundary Layers.</em></h2><p class="book-authors">Gung-Min Gie · Makram Hamouda<br><strong>Chang-Yeol Jung</strong> · Roger Temam</p><p class="book-description">A mathematical study of singular perturbations and boundary layer problems, connecting rigorous analysis with applications in fluid mechanics and beyond.</p><p class="book-meta">Springer · 2018<br>Applied Mathematical Sciences, Volume 200</p><a class="button button-outline" href="https://link.springer.com/book/10.1007/978-3-030-00638-9" target="_blank" rel="noopener noreferrer">Explore the book <span aria-hidden="true">↗</span></a></div>
+      <div class="book-copy"><p class="eyebrow">05 / MONOGRAPH</p><h2 id="book-title">Singular Perturbations<br>&amp; <em>Boundary Layers.</em></h2><p class="book-authors">Gung-Min Gie · Makram Hamouda<br><strong>Chang-Yeol Jung</strong> · Roger Temam</p><p class="book-description">A mathematical study of singular perturbations and boundary layer problems, connecting rigorous analysis with applications in fluid mechanics and beyond.</p><p class="book-meta">Springer · 2018<br>Applied Mathematical Sciences, Volume 200</p><a class="button button-outline" href="https://link.springer.com/book/10.1007/978-3-030-00638-9" target="_blank" rel="noopener noreferrer">Explore the book <span aria-hidden="true">↗</span></a></div>
     </section>
   </main>
   <footer id="contact" class="site-footer">
     <div class="container">
-      <div class="footer-main"><div><p class="eyebrow">05 / CONTACT</p><h2>Let’s <em>connect.</em></h2><a class="email-link" href="mailto:cjung@unist.ac.kr">cjung@unist.ac.kr <span aria-hidden="true">↗</span></a></div><address><strong>Chang-Yeol Jung</strong><span>Department of Mathematical Sciences<br>School of Natural Science<br>Ulsan National Institute of Science and Technology</span><span>Ulsan, Republic of Korea</span><a href="tel:+82522173137">+82-52-217-3137</a></address></div>
+      <div class="footer-main"><div><p class="eyebrow">06 / CONTACT</p><h2>Let’s <em>connect.</em></h2><a class="email-link" href="mailto:cjung@unist.ac.kr">cjung@unist.ac.kr <span aria-hidden="true">↗</span></a></div><address><strong>Chang-Yeol Jung</strong><span>Department of Mathematical Sciences<br>School of Natural Science<br>Ulsan National Institute of Science and Technology</span><span>Ulsan, Republic of Korea</span><a href="tel:+82522173137">+82-52-217-3137</a></address></div>
       <div class="footer-bottom"><p>© <span id="copyright-year">2026</span> Chang-Yeol Jung</p><a href="https://scholar.google.com/citations?hl=en&amp;user=pWKSUngAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a><a href="#home">Back to top <span aria-hidden="true">↑</span></a></div>
     </div>
   </footer>
